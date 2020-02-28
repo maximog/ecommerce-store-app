@@ -31,7 +31,7 @@ class SignUp extends React.Component {
             return;
         }
 
-        signUpStart({email, password, displayName});
+        signUpStart({ email, password, displayName });
 
     };
 
