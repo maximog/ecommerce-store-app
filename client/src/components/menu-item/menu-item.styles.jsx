@@ -15,12 +15,12 @@ export const MenuItemContainer = styled.div`
     &:hover {
         cursor: pointer;
         & .background-image {
-			transform: scale(1.1);
-			transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-		}
-		& .content {
-			opacity: 0.9;
-		}
+	transform: scale(1.1);
+	transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+	}
+	& .content {
+	  opacity: 0.9;
+	}
       }
 
       &:first-child {
